@@ -7,7 +7,6 @@
 }
 body{
     background-image: url(https://images.unsplash.com/photo-1522409872680-d4673886d024);
-
 }
 .container{
     background-color: white;
@@ -16,4 +15,51 @@ body{
 }
 .row{
     height: 100%;
+}
+.navbar {
+    border-top: solid black;
+    border-bottom: solid black;
+    background-color: white !important;
+}
+.navbar-brand {
+    border-right: solid thin lightgray;
+    padding: 0px 20px 0px 0px;
+}
+.headerimage{
+    border-spacing: 1px;
+    border: solid thin black;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 0px 15px 0px 0px;
+}
+
+.whatdo{
+    border: solid thin rgb(46, 42, 42) !important;
+}
+hr{
+    style: solid thick;
+}
+footer{
+    margin: 0 auto;
+}
+.footerline{
+    text-align: center;
+    position: center;
+    margin: 0 auto !important;
+    padding: 0px 0px 0px 50px;
+}
+.footerline a{
+    color: black !important;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0px 0px 0px 15px;
+}
+h6{
+    color: gray;
+    text-align: center;
+}
+h1 {
+    padding: 10px !important;
+    
 }
