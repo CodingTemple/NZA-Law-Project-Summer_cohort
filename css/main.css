@@ -1,5 +1,5 @@
 .heroimage{
-    height: 300px;
+    height: 500px;
     width: 500px;
     padding: 30px 30px 30px 0px;
     position: relative;
@@ -22,6 +22,9 @@ body{
     background-color: white !important;
 }
 .navbar-brand {
+    padding: 0px 20px 0px 0px;
+}
+.line {
     border-right: solid thin lightgray;
     padding: 0px 20px 0px 0px;
 }
@@ -61,5 +64,44 @@ h6{
 }
 h1 {
     padding: 10px !important;
+}
+
+.jumbotron{
+    background-image: url(https://bit.ly/2XGtJnx);
+    background-size: cover;
+    height: 500px;
+    width: 500px;
+    color: white;
+    border: solid thin gray;
+    outline: 7px solid thin gray;
+}
+.jumbotron:before{
+    content: "";
+    position: relative;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border: 5px gray;
+}
+.display-4{
+    bottom: 30%;
+    float: left;
     
 }
+.lead{
+    bottom: 30% !important;
+    float: left;
+}
+.scroll{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background: maroon;
+    color: white;
+    padding: 10px;
+    height: 450px;
+}
+.contact{
+    font-size: small !important;
+}
+  
