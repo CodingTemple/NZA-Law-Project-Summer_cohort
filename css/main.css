@@ -1,5 +1,5 @@
 .heroimage{
-    height: 300px;
+    height: 500px;
     width: 500px;
     padding: 30px 30px 30px 0px;
     position: relative;
@@ -22,6 +22,9 @@ body{
     background-color: white !important;
 }
 .navbar-brand {
+    padding: 0px 20px 0px 0px;
+}
+.line {
     border-right: solid thin lightgray;
     padding: 0px 20px 0px 0px;
 }
@@ -32,6 +35,16 @@ body{
     height: 100px;
     float: left;
     margin: 0px 15px 0px 0px;
+}
+.headerimage::before{
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 5px;
+    right: 121px;
+    bottom: 22px;
+    border: 5px solid black;
+    border-width: thin;
 }
 
 .whatwedo{
@@ -60,6 +73,7 @@ h6{
 }
 h1 {
     padding: 10px !important;
+
     
 }
 .whatwedo{
@@ -116,10 +130,57 @@ h1 {
     color: grey;
 }
 
-
-
-
-
-
-
+}
+.jumbotron{
+    background-image: url(https://bit.ly/2XGtJnx);
+    background-size: cover;
+    opacity: .8;
+    height: 500px;
+    width: 500px;
+    color: white;
+    border: solid thin gray;
+}
+.offfset-md-1{
+    border: 10px solid black;
+}
+.about{
+    border: 10px solid white !important;
+}
+/*this isn't working the way i wanted it (not re-sizing with the jumbotron itself) so i'm nixing it but leaving the code as reference. 
+.jumbotron::before{
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 5px;
+    right: 121px;
+    bottom: 22px;
+    border: 5px solid gray;
+    border-width: thin;
+}
+.jumbotron::after{
+    content: "";
+    position: absolute;
+    top: -24px;
+    left: -9px;
+    right: 107px;
+    bottom: 8px;
+    border: 5px solid gray;
+    border-width: thick;
+}*/
+.display-4{
+    top: 70%;
+    position: absolute;
+}
+.scroll{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background: maroon;
+    color: white;
+    padding: 10px;
+    height: 450px;
+}
+.contact{
+    font-size: small !important;
+}
+  
 
