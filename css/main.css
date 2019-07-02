@@ -34,11 +34,10 @@ body{
     margin: 0px 15px 0px 0px;
 }
 
-.whatdo{
+.whatwedo{
     border: solid thin rgb(46, 42, 42) !important;
 }
-hr{
-    style: solid thick;
+
 }
 footer{
     margin: 0 auto;
@@ -63,3 +62,64 @@ h1 {
     padding: 10px !important;
     
 }
+.whatwedo{
+    background-color: darkred;
+    color: white;
+    width: 270px;
+}
+
+.picture1{
+    width: 380px;
+
+}
+
+
+.picture2{
+    width: 380px;
+}
+.picture3{
+    width: 380px;
+}
+.picture4{
+    width: 380px;
+}
+
+.darkred{
+    background-color: darkred;
+}
+.col-md-3{
+    padding: 20px;
+    height: 640px;
+    width: 100;
+    font-size: 12px;
+    background-color: darkred;
+    color: white 
+    
+}
+.babychick{
+    height: 130px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.transportation{
+    position: absolute;
+    bottom: 50px;
+    color:white;
+}
+
+.subrogation{
+    position: absolute;
+    bottom: 50px;
+    color: grey;
+}
+
+
+
+
+
+
+
+
