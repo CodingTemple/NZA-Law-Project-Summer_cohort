@@ -1,0 +1,102 @@
+body {
+    margin:auto;
+    width: 95%
+}
+.bgColor {
+    background-color: white
+}
+.height {
+    height: 200px
+}
+.colorBlack {
+    color: black
+}
+.fontSize {
+    font-size: 24px
+}
+nav {
+    border-top: 3px solid black;
+    border-bottom: 3px solid black
+}
+.borderRight {
+    border-right: 1px solid gray
+}
+.separator {
+    height: 40px;
+    position:relative;
+    top: 9px
+}
+.padding {
+    padding-right: 50px;
+    padding-left: 50px
+}
+.redBgColor {
+    background-color: #800000
+}
+.margin {
+    margin-top: 50px;
+    margin-left: 0px
+}
+.colorWhite {
+    color:white
+}
+.paddingTop {
+    padding-top: 25px
+}
+.borderBottom {
+    border-bottom: 3px solid white
+}
+.liTop {
+    padding-top: 35px
+}
+.width {
+    width: 65%
+}
+.marginLeft {
+    margin-left: 15px
+}
+.imgStyle {
+    width: 70%;
+    height: 20%;
+    margin-left: 5%;
+    padding-top: 10%
+}
+.divStyle {
+    margin-left: 5%;
+    width: 65%
+}
+.fontMedium {
+    font-size: 18px
+}
+.paddingBottom {
+    padding-bottom: 10px
+}
+.pWidth {
+    width: 127%
+}
+.pMargin {
+    margin-left: 2%
+}
+.divImg {
+    margin-left: 2%;
+    position: relative;
+    top : 0%
+}
+.homeImg {
+    width: 121%;
+    height: 700px
+}
+.divHeight {
+    height: 750px
+}
+.footer {
+    border-top: 2px solid black;
+    margin-top: 3%
+}
+.footerGray {
+    color:gray
+}
+.divTop {
+    position: relative;
+    top: -50px
+}
